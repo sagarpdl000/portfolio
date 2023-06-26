@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO</title>
+    <script src="https://kit.fontawesome.com/26e65e9614.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+                                        <!-- --------------------HEADER SECTION STARTED------------------- -->
+    <div class="header" id="my-header">
+        <div class="container">
+            <nav>
+                <img src="images/mylogo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#my-header">Home</a></li>
+                    <li><a href="#my-about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-portfolio">portfolio</a></li>
+                    <li><a href="#my-contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <Span>Sagar</Span><br> from Nepal.</h1>
+            </div>
+        </div>
+    </div>
+
+
+                                       <!-- --------------------ABOUT SECTION STARTED------------------- -->
+    <div class="about" id="my-about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutphoto1.png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda dignissimos itaque est sapiente, similique reiciendis obcaecati nemo totam quo tenetur ea harum atque, facilis impedit eveniet magni, explicabo id voluptatem.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>JavaScript,c++ </li>
+                            <li><span>Frontend Skills</span><br>Bootstrap, Tailwind, ReactJs</li>
+                            <li><span>Backend Skills</span><br>NodeJs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>React Intern at Leapfrog Technology.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Completed +2 from premier college, Baneshowr.</li>
+                            <li><span>2023</span><br>Final Semester running in Bachelor of Information technology, Texas College Of Management And IT.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                                  <!-- --------------------SERVICES SECTION STARTED------------------- -->
+
+            <div class="services" id="services">
+                <div class="container">
+                <div class="sub-title">My Services</div>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-react"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi eius sapiente veniam amet adipisci.</p>
+                        <a href="#my-services">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-artstation"></i>
+                        <h2>Personal Web Designing Classes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi eius sapiente veniam amet adipisci.</p>
+                        <a href="#my-services">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-square-js"></i>
+                        <h2>Programming Language Classes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi eius sapiente veniam amet adipisci.</p>
+                        <a href="#my-services">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div> 
+
+                    <!-- --------------------SERVICES SECTION STARTED------------------- -->
+                
+                    <div class="portfolio" id="my-portfolio">
+                        <div class="container">
+                            <div class="sub-title">My work</div>
+                            <div class="work-list">
+                                <div class="work">
+                                    <img src="images/work-1.png" alt="">
+                                    <div class="layer">
+                                        <h3>Portfolio Website</h3>
+                                        <p>You can put your work portfolio on the internet.</p>
+                                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <img src="images/work-2.png" alt="">
+                                    <div class="layer">
+                                        <h3>Startup websites</h3>
+                                        <p>If you dont gave the technical knowledge for your startup, we are here to help you.</p>
+                                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                                    </div>
+                                </div>
+                                <div class="work">
+                                    <img src="images/work-3.png" alt="">
+                                    <div class="layer">
+                                        <h3>Ecommerce website</h3>
+                                        <p>Website for your ecommerce business.</p>
+                                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                                <a href="#"class="btn">See more</a>
+
+                        </div>
+                    </div>
+                    <!-- --------------------Contact SECTION STARTED------------------- -->
+
+                    <div class="contact" id="my-contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="contact-left">
+                                    <h1 class="sub-title">Contact me</h1>
+                                    <p><i class="fas fa-paper-plane"></i>pdlsgr62@gmail.com</p>
+                                    <p><i class="fas fa-phone-square-alt"></i>9861349918</p>
+                                    <div class="social-icon">
+                                        <a href="instagram.com/__sagarpdl"><i class="fab fa-instagram"></i></a>
+                                        <a href="git-hub.com/__sagarpdl"><i class="fab fa-github"></i></a>
+                                        <a href="linkedin.com/__sagarpdl"><i class="fab fa-linkedin"></i></a>
+                                    </div>
+                                    <a href="images/sagar's CV.pdf" download class="btn btn2">Download CV</a>
+                                </div>
+
+                                <div class="contact-right">
+                                    <form name="submit-to-google-sheet">
+
+                                        <input type="text" name="Name" placeholder="Your Name" required>
+                                        <input type="email" name="Email" placeholder="Your Email" required>
+                                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                        <button type="submit" class="btn btn2">Submit</button>
+
+
+
+
+                                    </form>
+                                    <span id="msg"></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="copyright">
+                            <p>pdlsgr62@gmail.com </p>
+                        </div>
+                    </div>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenuu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenuu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenuu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4re54wrGXsusJxT3EpAr_7tMM2wx5Ch9TPSviZShQtDfPKaWrf36j9oAO9x4gjvXLAA/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank you for reaching out, info has been sent.Will get back to you soon."
+                setTimeout(function(){
+                    msg.innerHTML=""
+
+                },5000 )
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
